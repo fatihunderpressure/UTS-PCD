@@ -1,0 +1,7 @@
+LPF menghasilkan gambar lebih halus karena nilai piksel dirata-ratakan dengan tetangganya. Noise berkurang, tapi detail dan tepi jadi blur. Nilai rata-rata piksel cenderung stabil.
+
+HPF menonjolkan perubahan intensitas tinggi sehingga tepi objek terlihat jelas. Area datar jadi gelap, hanya bagian kontras tinggi yang muncul. Nilai rata-rata piksel cenderung lebih rendah.
+
+BPF (sharpening) meningkatkan ketajaman dengan mempertahankan detail sekaligus memperkuat tepi. Hasilnya lebih tajam dibanding original tanpa terlalu banyak kehilangan informasi.
+
+Secara domain spasial, filter bekerja langsung pada piksel dan tetangganya. LPF mengurangi frekuensi tinggi, HPF menonjolkan frekuensi tinggi, dan BPF menggabungkan keduanya. Di domain frekuensi, LPF melewatkan frekuensi rendah, HPF melewatkan frekuensi tinggi, dan BPF fokus pada rentang tertentu untuk mempertajam citra.
