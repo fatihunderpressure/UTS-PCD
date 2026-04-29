@@ -1,0 +1,9 @@
+Gambar asli masih dalam bentuk warna RGB, distribusi intensitas menyebar karena tiap channel beda.
+
+Grayscale mengubah citra jadi satu kanal intensitas. Detail masih sama tapi tanpa warna, histogram lebih fokus ke sebaran terang–gelap.
+
+Negatif membalik nilai piksel, area gelap jadi terang dan sebaliknya. Histogram ikut kebalik dari grayscale.
+
+Transformasi log menaikkan detail di area gelap dan menekan area terang. Hasilnya bagian shadow lebih keliatan, tapi bagian terang ga terlalu dominan. Histogram cenderung ngumpul di tengah sampai kanan.
+
+Perbandingan nunjukin kalau negatif cuma inversi nilai, sedangkan log dipakai buat ningkatin detail di bagian gelap gambar.
